@@ -1,3 +1,11 @@
 div {
 	text-align: center;
 }
+
+p {
+	text-align: center;
+}
+
+.color-change {
+	color: red;
+}

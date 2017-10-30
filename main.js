@@ -1,5 +1,5 @@
-$(document).ready() {
-	$("div").on("click", function () {
-		$(this).css("background-color", "blue");
-	});
-}
+$(document).ready(function(){
+    $("p").click (function(){
+        $(this).toggleClass("color-change")
+    });
+});
